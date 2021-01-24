@@ -2,15 +2,15 @@ package com.vivekananda.atm.model;
 
 import java.util.List;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.Getter;
+import lombok.RequiredArgsConstructor;
+import lombok.Setter;
 import lombok.ToString;
 
-@Data
+@Getter
+@Setter
 @ToString
-@NoArgsConstructor
-@AllArgsConstructor
+@RequiredArgsConstructor
 public class OpeningHours {
 
 	private int dayOfWeek;

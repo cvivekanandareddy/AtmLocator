@@ -2,15 +2,13 @@ package com.vivekananda.atm.model;
 
 import java.util.List;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-import lombok.ToString;
+import lombok.Getter;
+import lombok.RequiredArgsConstructor;
+import lombok.Setter;
 
-@Data
-@ToString
-@NoArgsConstructor
-@AllArgsConstructor
+@Getter
+@Setter
+@RequiredArgsConstructor
 public class AtmDetails {
 
 	private Address address;
